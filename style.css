@@ -21,3 +21,12 @@ button{
     border:none;
     border-radius: 8px;
 }
+h1,h2,h3,p{
+    margin-bottom:12px;
+}
+button{
+    margin-bottom:16px;
+}
+form{
+    margin-top:24px;
+}
