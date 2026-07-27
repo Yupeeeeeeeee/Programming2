@@ -14,3 +14,10 @@ p{
     font-size:20px;
     line-height:1.6;
 }
+button{
+    background-color: #1d4ecd;
+    color:#f5f7fb;
+    padding:16px 20px;
+    border:none;
+    border-radius: 8px;
+}
