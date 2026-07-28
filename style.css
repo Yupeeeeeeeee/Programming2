@@ -15,7 +15,7 @@ p{
     line-height:1.6;
 }
 button{
-    background-color: #1d4ecd;
+    background-color: navy;
     color:#f5f7fb;
     padding:16px 20px;
     border:none;
@@ -31,7 +31,7 @@ button{
     margin-top:20px;
 }
 button:hover{
-    background-color: yellow;
+    background-color: blue;
 }
 a{
     color:blue;
@@ -44,7 +44,7 @@ form{
     margin-top:24px;
 }
 #hero{
-    background-color:grey;
+    background-color:whitesmoke;
     padding:32px;
     border-radius:12px;
 }
@@ -53,8 +53,26 @@ form{
     font-weight:bold;
 }
 .card{
-    background-color:grey;
+    background-color:whitesmoke;
     padding:24px;
     margin-top:20px;
     border-radius:12px;
+}
+label{
+    font-weight:bold;
+    display:block;
+    margin-bottom:10px;
+}
+input{
+    display:block;
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid grey;
+    border-radius:12px;
+}
+input:focus{
+    outline:none;
+    border-color: #1d4ed8;
+    background-color:whitesmoke;
 }
