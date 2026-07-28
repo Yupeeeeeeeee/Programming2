@@ -20,6 +20,8 @@ button{
     padding:16px 20px;
     border:none;
     border-radius: 8px;
+    cursor: pointer;
+    transition:0.3s;
 }
 h1,h2,h3,p{
     margin-bottom:12px;
@@ -27,6 +29,16 @@ h1,h2,h3,p{
 button{
     margin-bottom:16px;
     margin-top:20px;
+}
+button:hover{
+    background-color: yellow;
+}
+a{
+    color:blue;
+    text-decoration:underline;
+}
+a:hover{
+    color:red;
 }
 form{
     margin-top:24px;
@@ -41,7 +53,7 @@ form{
     font-weight:bold;
 }
 .card{
-    background-color:yellow;
+    background-color:grey;
     padding:24px;
     margin-top:20px;
     border-radius:12px;
