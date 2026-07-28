@@ -40,3 +40,9 @@ form{
     color:#1d4ecd;
     font-weight:bold;
 }
+.card{
+    background-color:wheat;
+    padding:24px;
+    margin-top:20px;
+    border-radius:12px;
+}
