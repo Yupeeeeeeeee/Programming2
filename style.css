@@ -26,7 +26,17 @@ h1,h2,h3,p{
 }
 button{
     margin-bottom:16px;
+    margin-top:20px;
 }
 form{
     margin-top:24px;
+}
+#hero{
+    background-color:grey;
+    padding:32px;
+    border-radius:12px;
+}
+.highlight{
+    color:#1d4ecd;
+    font-weight:bold;
 }
