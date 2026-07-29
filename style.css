@@ -1,6 +1,7 @@
 h1{
     text-align:center;
-    font-size:large;
+    font-size:80px;
+    color:#1d4ecd
 }
 h3{
     font-size:large;
@@ -25,7 +26,7 @@ body{
     margin-bottom: 15px;
     }
 .card{
-    background-color:grey;
+    background-color:aliceblue;
     color:#222;
     padding:20px;
     margin-bottom:15px;
@@ -39,7 +40,6 @@ button{
     background-color:navy;
     color:white;
     cursor: pointer;
-    margin-top:20px;
 }
 .G{
     padding: 20px;
@@ -72,4 +72,8 @@ input{
 input:focus{
     background-color: #1d4ecd;
     outline:none;
+}
+.submit{
+    padding: 15px 20px;
+    margin-top:20px;
 }
