@@ -1,3 +1,23 @@
-h1,h3,p,a,button{
+h1,h3,p{
     text-align:center;
+}
+body{
+    font-family: Arial,sans-serif; 
+    background-color:#f5f7fb;
+    line-height:1.6;
+}
+.game{
+    background-color:whitesmoke;
+    color:#222;
+    padding:20px;
+    border-radius:15px;
+}
+#hero{
+    background-color: aliceblue;
+    color:#222;
+    border-radius:15px;
+    padding: 20px;
+}
+.G{
+    display:flex;
 }
