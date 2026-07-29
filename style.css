@@ -61,5 +61,11 @@ label{
     font-weight:bold;
 }
 input{
+    max-width:100%;
+    border:1px solid grey;
     display:block
+}
+input:focus{
+    background-color: #1d4ecd;
+    outline:none;
 }
