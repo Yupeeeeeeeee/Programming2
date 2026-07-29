@@ -1,78 +1,91 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color:#f5f7fb;
-}
 h1{
-    color:#1d4ecd;
-    font-size:50px;
     text-align:center;
+    font-size:80px;
+    color:#1d4ecd
 }
-h2,h3{
-    color:#111334;
+h3{
+    font-size:large;
 }
-p{
-    font-size:20px;
+body{
+    font-family: Arial,sans-serif; 
+    background-color:#f5f7fb;
     line-height:1.6;
 }
+.game{
+    background-color:whitesmoke;
+    color:#222;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom: 15px
+}
+    #hero{
+    background-color: aliceblue;
+    color:#222;
+    border-radius:15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    }
+.card{
+    background-color:aliceblue;
+    color:#222;
+    padding:20px;
+    margin-bottom:15px;
+}
 button{
-    background-color: navy;
-    color:#f5f7fb;
-    padding:16px 20px;
+    text-align: center;
+    padding:20px 10px;
+    margin-left:20px;
     border:none;
-    border-radius: 8px;
+    border-radius:15px;
+    background-color:navy;
+    color:white;
     cursor: pointer;
-    transition:0.3s;
 }
-h1,h2,h3,p{
-    margin-bottom:12px;
-}
-button{
-    margin-bottom:16px;
-    margin-top:20px;
+.G{
+    padding: 20px;
+    display:flex;
 }
 button:hover{
-    background-color: blue;
+background-color: blue;
+color:grey;
 }
 a{
     color:blue;
     text-decoration:underline;
+    font-weight:bold;
+    text-align:center;
 }
 a:hover{
     color:red;
 }
-form{
-    margin-top:24px;
-}
-#hero{
-    background-color:whitesmoke;
-    padding:32px;
-    border-radius:12px;
-}
-.highlight{
-    color:#1d4ecd;
-    font-weight:bold;
-}
-.card{
-    background-color:whitesmoke;
-    padding:24px;
-    margin-top:20px;
-    border-radius:12px;
-}
 label{
     font-weight:bold;
     display:block;
-    margin-bottom:10px;
 }
 input{
-    display:block;
     width:100%;
-    padding:15px;
-    margin-bottom:15px;
     border:1px solid grey;
-    border-radius:12px;
+    border-radius:15px;
+    display:block;
+    color:grey;
+    padding:20px;
 }
 input:focus{
+    background-color: #1d4ecd;
     outline:none;
-    border-color: #1d4ed8;
-    background-color:whitesmoke;
+}
+.submit{
+    padding: 15px 20px;
+    margin-top:20px;
+}
+p{
+    font-size:35px;
+    font-weight:700;
+    color:#222;
+}
+.click{
+    color:cornflowerblue;
+    text-decoration:underline;
+    font-weight: bold;
+    font-size:larger;
 }
