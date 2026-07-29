@@ -1,5 +1,6 @@
 h1,h3,p{
     text-align:center;
+    font-size:large;
 }
 body{
     font-family: Arial,sans-serif; 
@@ -11,13 +12,44 @@ body{
     color:#222;
     padding:20px;
     border-radius:15px;
+    margin-bottom: 15px
 }
-#hero{
+    #hero{
     background-color: aliceblue;
     color:#222;
     border-radius:15px;
     padding: 20px;
-}
+    margin-bottom: 15px;
+    }
 .G{
     display:flex;
+}
+.card{
+    background-color:grey;
+    color:#222;
+    padding:20px;
+    margin-bottom:15px;
+}
+button{
+    text-align: center;
+    padding:20px 10px;
+    margin-left:20px;
+    border:none;
+    border-radius:15px;
+    background-color:navy;
+    color:white;
+    cursor: pointer
+}
+button:hover{
+background-color: blue;
+color:grey;
+}
+a{
+    color:blue;
+    text-decoration:underline;
+    font-weight:bold;
+    text-align:center;
+}
+a:hover{
+    color:red;
 }
