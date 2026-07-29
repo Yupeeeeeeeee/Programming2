@@ -38,9 +38,9 @@ button{
     border-radius:15px;
     background-color:navy;
     color:white;
-    cursor: pointer
+    cursor: pointer;
 }
-G{
+.G{
     padding: 20px;
     display:flex;
 }
@@ -63,7 +63,8 @@ label{
 input{
     max-width:100%;
     border:1px solid grey;
-    display:block
+    display:block;
+    color:grey;
 }
 input:focus{
     background-color: #1d4ecd;
