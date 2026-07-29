@@ -1,5 +1,8 @@
-h1,h3{
+h1{
     text-align:center;
+    font-size:large;
+}
+h3{
     font-size:large;
 }
 body{
@@ -37,6 +40,10 @@ button{
     color:white;
     cursor: pointer
 }
+G{
+    padding: 20px;
+    display:flex;
+}
 button:hover{
 background-color: blue;
 color:grey;
@@ -49,4 +56,10 @@ a{
 }
 a:hover{
     color:red;
+}
+label{
+    font-weight:bold;
+}
+input{
+    display:block
 }
