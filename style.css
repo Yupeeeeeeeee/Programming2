@@ -39,6 +39,7 @@ button{
     background-color:navy;
     color:white;
     cursor: pointer;
+    margin-top:20px;
 }
 .G{
     padding: 20px;
@@ -59,6 +60,7 @@ a:hover{
 }
 label{
     font-weight:bold;
+    display:block;
 }
 input{
     width:100%;
