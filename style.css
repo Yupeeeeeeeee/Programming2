@@ -61,10 +61,11 @@ label{
     font-weight:bold;
 }
 input{
-    max-width:100%;
+    width:100%;
     border:1px solid grey;
     display:block;
     color:grey;
+    padding:20px;
 }
 input:focus{
     background-color: #1d4ecd;
