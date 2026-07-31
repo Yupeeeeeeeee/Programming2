@@ -18,6 +18,13 @@ body{
     border-radius:15px;
     margin-bottom: 15px
 }
+.game-container{
+    display:flex;
+    gap:20px;
+}
+.game img{
+    width:100%;
+}
     #hero{
     background-color: aliceblue;
     color:#222;
