@@ -19,7 +19,7 @@ body{
 .nav-links{
     display:flex;
     gap:20px;
-    padding:20px;
+    padding:16px;
 }
 .nav-links a{
     color:#222;
@@ -32,9 +32,10 @@ body{
     position: absolute;
     right:20px;
     top:20px;
-    border-radius:15px;
+    border-radius:25px;
     background-color: #1d4ecd;
-    padding:15px 5px;
+    padding: 25px 15px;
+    color:white;
 }
 .game{
     background-color:whitesmoke;
@@ -49,9 +50,7 @@ body{
 }
 .game img{
     width:100%;
-}
-.fnf{
-    height:50px;
+    height:200px;
 }
     #hero{
     background-color: aliceblue;
@@ -68,7 +67,7 @@ body{
 }
 button{
     text-align: center;
-    padding:12px 10px;
+    padding:8px 10px;
     margin-left:20px;
     border:none;
     border-radius:15px;
@@ -107,7 +106,8 @@ input{
     padding:20px;
 }
 input:focus{
-    background-color: #1d4ecd;
+    background-color: white;
+    border-color:#1d4ecd;
     outline:none;
 }
 .submit{
@@ -130,4 +130,21 @@ p{
     padding:20px;
     border-radius:15px;
     position: relative;
+}
+.banner{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-text{
+    position:absolute;
+    left:20px;
+    top:20px;
+    color:#ffffff;
+    max-width: 400px;
+}
+.badge img{
+    width:100%;
+    display:block;
 }
