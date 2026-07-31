@@ -1,160 +1,27 @@
 h1{
-    text-align:center;
-    font-size:50px;
-    color:#1d4ecd
-}
-h3{
-    font-size:large;
-}
-p{
-    font-size:20px;
-    font-weight:600;
-    color:#222;
-}
-body{
-    font-family: Arial,sans-serif; 
-    background-color:#f5f7fb;
-    line-height:1.6;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color:white;
-}
-.nav-links{
-    display:flex;
-    gap:20px;
-    padding:16px;
-}
-.nav-links a{
-    color:#222;
-    text-decoration: none;
-}
-.nav-links a:hover{
     color:#1d4ecd;
-}
-.badge{
-    position: absolute;
-    right:20px;
-    top:20px;
-    border-radius:50px;
-    background-color: #1d4ecd;
-    padding: 25px 15px;
-    color:white;
+    text-align: center;
     font-size:40px;
 }
-.game{
-    background-color:whitesmoke;
-    color:#222;
-    padding:20px;
-    border-radius:15px;
-    margin-bottom: 15px
-}
-.game-container{
-    display:flex;
-    gap:20px;
-}
-.game img{
-    width:100%;
-    height:200px;
-    border-radius: 15px;
-}
-    #hero{
-    background-color: aliceblue;
-    color:#222;
-    border-radius:15px;
-    padding: 20px;
-    margin-bottom: 15px;
-    }
-.card{
-    background-color:aliceblue;
-    color:#222;
-    padding:20px;
-    margin-bottom:15px;
-}
 button{
-    text-align: center;
-    padding:8px 10px;
-    margin-left:20px;
-    border:none;
-    border-radius:15px;
-    background-color:navy;
+    padding: 15px 20px;
+    background-color: navy;
     color:white;
+    border-radius: 15px;
     cursor: pointer;
 }
-.G{
-    padding: 20px;
-    display:flex;
-}
 button:hover{
-background-color: blue;
-color:grey;
-}
-a{
-    color:blue;
-    text-decoration:underline;
-    font-weight:bold;
-    font-size:25px;
-    text-align:center;
-}
-a:hover{
-    color:red;
-}
-label{
-    font-weight:bold;
-    display:block;
+    background-color: #1d4ecd;
 }
 input{
-    width:100%;
     border:1px solid grey;
-    border-radius:15px;
-    display:block;
-    color:grey;
-    padding:20px;
-}
-input:focus{
-    background-color: white;
-    border-color:#1d4ecd;
-    outline:none;
-}
-.submit{
-    padding: 15px 20px;
-    margin-top:20px;
-}
-p{
-    font-size:15px;
-    font-weight:400;
-    color:#222;
-}
-.click{
-    color:cornflowerblue;
-    text-decoration:underline;
-    font-weight: bold;
-    font-size:larger;
-}
-#hero{
-    background-color: #f5f7fb;
-    padding:20px;
-    border-radius:15px;
-    position: relative;
-}
-.banner{
     background-color: white;
     border-radius: 15px;
-    position: relative;
-    overflow: hidden;
-}
-.banner-text{
-    position:absolute;
-    left:20px;
-    top:20px;
-    max-width: 400px;
-    font-size:80px;
-}
-.banner img{
-    width:100%;
     display:block;
+    width: 50%;
 }
-.banner p{
-    color:white;
+input:hover{
+    border-color:#1d4ecd;
+    outline:none;
+    background-color: white;
 }

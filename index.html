@@ -1,80 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-        My Favourite Games
-    </title>
+    <title>Age Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <h2>My Favourite Games</h2>
-        <div class="nav-links">
-            <a href="#hero">Home</a>
-            <a href="#games">Games</a>
-            <a href="#form-section">Form</a>
-        </div>
-    </nav>
-    <div id="hero">
-        <span class="badge">Games</span>
-        <div class="hero-text">
-<h1>My Favourite Games</h1>
-<p>I love lots of games <br> Some of these games are : Minecraft,Roblox,Friday <br> I will talk about each game separately.</p>
-    </div>
-</div>
-    <section id="games" class="games">
-    <h2>My Favourite games</h2>
-    <div class="game-container">
-        <div class="game">
-        <img src="minecraft.jpg" alt="Minecraft">
-<h3 class="MC">Minecraft</h3>
-<p>Minecraft is a sandbox game.<br>I love building and exploring</p>
-<a href="https://www.minecraft.net">Get Minecraft Now!</a>
-<div class="G">
-<p class="click">or click this button</p>
-<button>Download Minecraft</button>
-</div>
-</div>
-<div class="game">
-    <img src="roblox.webp" alt="Roblox">
-<h3 class ="R">Roblox</h3>
-<p>Roblox is a platform that has thousands of games <br>I play with my friends</p>
-<a href="https://www.roblox.net">Get Roblox Now!</a>
-<div class="G">
-<p class="click">or click this button</p>
-<button>Download Roblox</button>
-</div>
-</div>
-<div class="game">
-    <img src="Fnf.png" alt="FNF" class="fnf">
-    <h3 class="FNF">Friday Night Funkin (FNF)</h3>
-    <p>Friday Night Funkin is a rap game that has a lot of mods and stories<br>I like its music</p>
-<a href="https://www.google.com">Get FNF Now!</a>
-<div class="G">
-<p class="click">or click this button</p>
-<button>Download FNF</button>
-</div>
-</div>
-    </div>
-    </section>
-    <section id="form-section" class="form-section">
-<div class="card">
-   <p>Don't forget to tell me your favourite game!</p>
-    <form>
-<label for="name">Your name</label>
-<input type="text" id="name" placeholder="Enter Your Name">
-<label for="game">Your favourite game</label>
-<input type="text" id="game" placeholder="Enter Your Favourit Game">
-<button type="submit" class="submit">Submit</button>
-    </form> 
-</div>
-    </section>
-    <section class="banner">
-        <img src="Coding.jpg" alt="Coding">
-        <div class="banner-text">
-        <p>You Can Also Learn How To Create Games!</p>
-        <button>Start Now</button>
-        </div>
-    </section>
+
+    <h1>Age Calculator</h1>
+
+    <p>Enter your birth year to calculate your age</p>
+
+    <input type="number" id="birthYear" placeholder="Enter Your Birth Year">
+
+    <button type="button" id="calculateBtn">Calculate age</button>
+
+    <p id="result"></p>
+    
 </body>
 </html>
