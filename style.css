@@ -7,8 +7,8 @@ h3{
     font-size:large;
 }
 p{
-    font-size:50px;
-    font-weight:600px;
+    font-size:20px;
+    font-weight:600;
     color:#222;
 }
 body{
@@ -41,7 +41,7 @@ body{
     background-color: #1d4ecd;
     padding: 25px 15px;
     color:white;
-    font-size:80px;
+    font-size:40px;
 }
 .game{
     background-color:whitesmoke;
@@ -151,10 +151,10 @@ p{
     max-width: 400px;
     font-size:80px;
 }
-.badge img{
+.banner img{
     width:100%;
     display:block;
 }
-.badge p{
+.banner p{
     color:white;
 }
