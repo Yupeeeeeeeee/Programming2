@@ -11,6 +11,22 @@ body{
     background-color:#f5f7fb;
     line-height:1.6;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.nav-links{
+    display:flex;
+    gap:20px;
+}
+.nav-links a{
+    color:#222;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color:#1d4ecd;
+}
 .game{
     background-color:whitesmoke;
     color:#222;
@@ -96,4 +112,9 @@ p{
     text-decoration:underline;
     font-weight: bold;
     font-size:larger;
+}
+#hero{
+    background-color: #f5f7fb;
+    padding:20px;
+    border-radius:15px;
 }
