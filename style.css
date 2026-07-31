@@ -19,6 +19,7 @@ body{
 .nav-links{
     display:flex;
     gap:20px;
+    padding:20px;
 }
 .nav-links a{
     color:#222;
@@ -26,6 +27,14 @@ body{
 }
 .nav-links a:hover{
     color:#1d4ecd;
+}
+.badge{
+    position: absolute;
+    right:20px;
+    top:20px;
+    border-radius:15px;
+    background-color: #1d4ecd;
+    padding:15px 5px;
 }
 .game{
     background-color:whitesmoke;
@@ -40,6 +49,9 @@ body{
 }
 .game img{
     width:100%;
+}
+.fnf{
+    height:50px;
 }
     #hero{
     background-color: aliceblue;
@@ -117,4 +129,5 @@ p{
     background-color: #f5f7fb;
     padding:20px;
     border-radius:15px;
+    position: relative;
 }
