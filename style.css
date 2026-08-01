@@ -6,6 +6,10 @@ h1{
 p{
     margin-left:30px;
 }
+#result{
+    font-weight:bold;
+    color:#222;
+}
 button{
     padding: 15px 25px;
     background-color: navy;
@@ -14,6 +18,7 @@ button{
     cursor: pointer;
     margin-top:20px;
     border:none;
+    margin-left:30;
 }
 button:hover{
     background-color: #1d4ecd;
