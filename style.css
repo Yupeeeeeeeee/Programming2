@@ -4,7 +4,12 @@ h1{
     background-color:white;
     border-radius:15px;
 }
+p{
+    margin-left:30px;
+    color:#222;
+}
 input{
+    display:block;
     border: 1px solid grey;
     border-radius:15px;
     background-color: white;
@@ -13,10 +18,12 @@ input{
     padding:20px 20px;
     width:650px;
 }
-input:hover{
+input:focus{
+    outline:none;
     border-color:#1d4ecd;
 }
 button{
+    display:block;
     border:none;
     border-radius: 15px;
     background-color: darkblue;

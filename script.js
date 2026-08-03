@@ -8,6 +8,7 @@ button.addEventListener("click",function(){
     if(birthYear === ""){
         error.textContent = "Please Enter Your Birth Year"
         result.textContent = ""
+        return;
     }
     if (age >= 100){
         result.textContent = "Bro you must be dead LOL :)"
