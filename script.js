@@ -3,6 +3,8 @@ let button = document.getElementById("calculateBtn");
 let result = document.getElementById("result");
 let error = document.getElementById("error");
 button.addEventListener("click",function(){
+    result.textContent = ""
+    error.textContent = ""
     let birthYear= birthYearInp.value;
     if(birthYear === ""){
         error.textContent = "Please Enter Your Birth Year"
