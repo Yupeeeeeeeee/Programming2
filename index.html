@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Age Calculator</title>
-    <link rel="stylesheet" href="style.css">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <h1>Age Calculator</h1>
+    <div class="app">
+        <h1 id="tytle">My To-Do List</h1>
 
-        <p>Enter your birth date to calculate your age</p>
+        <input type="text" id="taskInp" placeholder="Enter a task">
 
-        <input type="number" id="birthYear" placeholder="Enter Your Birth Year">
+        <button type="button" id="addBtn">Add Task</button>
 
-        <button type="button" id="calculateBtn">Calculate Age</button>
-        
-        <p id="result"></p>
-        <p id="error"></p>
+        <p id="message"></p>
+
+        <p>Total tasks: <span id="taskCount">0</span></p>
+
+        <ul id="taskList"></ul>
+    </div>
+
         <script src="script.js"></script>
     </body>
 </html>

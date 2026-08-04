@@ -1,47 +1,43 @@
 h1{
     text-align: center;
-    color:#1d4ecd;
-    background-color:white;
-    border-radius:15px;
-}
-p{
-    margin-left:30px;
-    color:#222;
+    color: #1d4ecd;
 }
 input{
-    display:block;
-    border: 1px solid grey;
-    border-radius:15px;
-    background-color: white;
-    color:grey;
-    margin-left:30px;
     padding:20px 20px;
-    width:650px;
+    margin-left: 30px;
+    border:1px solid grey;
+    background-color: white;
+    width:100%;
+    display: block;
+    border-radius: 15px;
+    color:grey;
 }
 input:focus{
     outline:none;
-    border-color:#1d4ecd;
+    border-color: #1d4ecd;
+    background-color: aliceblue;
+    color:grey;
 }
 button{
-    display:block;
-    border:none;
-    border-radius: 15px;
+    color:white;
     background-color: darkblue;
     padding:20px 15px;
-    margin-top:15px;
-    margin-left:30px;
-    color:white;
-    font-weight:bold;
-    cursor: pointer;
+    border:none;
+    border-radius: 15px;
+    font-weight: bold;
+    display: block;
+    cursor:pointer;
+    margin-left:30px ;
 }
 button:hover{
-background-color: #1d4ecd;
+    background-color: #1d4ecd;
 }
-#result{
-    color:#1d4ecd;
-    font-weight:bold;
-    margin-top: 15px;
+p{
+    color: #222;
+    margin-left:30px;
 }
-#error{
-    color:red;
+.app{
+    width:1000px;
+    background-color: aliceblue;
+    border-radius:15px;
 }
