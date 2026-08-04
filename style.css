@@ -2,7 +2,7 @@ h1{
     text-align: center;
     color: #1d4ecd;
 }
-input{
+.app input{
     padding:20px 20px;
     margin-left: 30px;
     border:1px solid grey;
@@ -45,4 +45,6 @@ body{
     background-color: white;
     border-radius:15px;
     width:100%;
+    margin-left:50px;
+    margin-right:50px;
 }
