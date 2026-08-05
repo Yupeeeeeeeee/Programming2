@@ -8,7 +8,7 @@ h1{
     margin-right:15px ;
     border:1px solid grey;
     background-color: white;
-    width:75%;
+    width:85%;
     display: block;
     border-radius: 15px;
     color:grey;
@@ -17,7 +17,7 @@ input:focus{
     outline:none;
     border-color: #1d4ecd;
     background-color: aliceblue;
-    color:grey;
+    color:#111;
 }
 button{
     color:white;
@@ -49,8 +49,6 @@ body{
     background-color: white;
     border-radius:15px;
     width:100%;
-    margin-left:50px;
-    margin-right:50px;
-    margin-top:50px;
-    padding:50px 35px;
+    margin:50px;
+    padding:60px 35px;
 }
