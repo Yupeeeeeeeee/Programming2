@@ -19,9 +19,20 @@ addBtn.addEventListener("click",function(){
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
 
+    li.appendChild(de)
+
+    taskList.appendChild(li);
+
     message.textContent="Task added successfully";
     count++;
     taskCount.textContent= count;
 
     taskInp.value = "";
+
+    deleteBtn.addEventListener("click",function(){
+        li.remove();
+        count--;
+        taskCount.textContent = count;
+        message.textContent = "Task deleted";
+    });
 });
