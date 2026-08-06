@@ -10,9 +10,10 @@ let count= 0;
 addBtn.addEventListener("click",function(){
     let taskText = taskInp.value;
     if(taskText === ""){
-        
+        message.textContent = "please enter new task"
+        return;
     }
-    message.textContent="New Task : " + taskText;
+    message.textContent="Task added successfully";
     count++;
     taskCount.textContent= count;
 
