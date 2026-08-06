@@ -9,6 +9,9 @@ let count= 0;
 
 addBtn.addEventListener("click",function(){
     let taskText = taskInp.value;
+    if(taskText === ""){
+        
+    }
     message.textContent="New Task : " + taskText;
     count++;
     taskCount.textContent= count;
